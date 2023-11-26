@@ -1,0 +1,1 @@
+ $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -Os   -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -I ./FatFs -I ./THex   -I ./FatFs/include -I ./THex/Include -I . -mdfp="${DFP_DIR}"  C:\Users\flyin\Documents\GitHub\UD3-Fibernet-Firmware\PIC32_SD_BL.X\SPI.c
